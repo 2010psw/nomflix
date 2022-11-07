@@ -9,10 +9,9 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-
         <Route path="/tv" element={<Tv />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/" element={<Home />}></Route>
       </Routes>
     </BrowserRouter>
   );
